@@ -1,12 +1,12 @@
 {
-  "name": "wsbhts-gateway",
+  "name": "wsbhts-user",
   "scripts": {
-    "dev": "wrangler dev --port 8000",
+    "dev": "wrangler dev --port 8001",
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.7",
-    "hono": "^4.6.12"
+    "hono": "^4.6.13"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241112.0",
